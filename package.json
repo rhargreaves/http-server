@@ -1,0 +1,18 @@
+{
+  "name": "http-server",
+  "version": "0.0.0",
+  "description": "Basic HTTP server for stubbing web services",
+  "main": "http-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhargreaves/http-server.git"
+  },
+  "author": "Robert Hargreaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhargreaves/http-server/issues"
+  }
+}
