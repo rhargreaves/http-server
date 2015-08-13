@@ -17,7 +17,7 @@ http.createServer(function (req, res) {
 	res.writeHead(200, headers);
 	res.end("Original Request URL: "+req.url);
 	console.log("Response: %s", res.statusCode);
-}).listen(9615);
+}).listen(process.env.PORT || 3000);
 
 function printHeaders(headers) {
 	for(key in headers) {
